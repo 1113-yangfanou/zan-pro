@@ -1,0 +1,40 @@
+commands:
+  zanwo:
+    description: 赞我
+    usage: |-
+      直接输入即可点赞
+    examples: |-
+      zanwo
+    messages:
+      success: 已完成名片赞操作，记得回哦~
+      failure: 点赞失败
+  zan:
+    description: 为其他人点赞
+    usage: |-
+      命令后接需要点赞的 QQ 号
+    examples: |-
+      zan 1000000007
+      zan 998244353
+    messages:
+      success: 已对目标完成名片赞操作
+      failure: 无法对目标点赞
+      noarg: 缺少必要参数，请检查输入
+  每日赞我:
+    description: 每日赞我
+    usage: |-
+      直接输入即可点赞
+    examples: |-
+      每日赞我
+    messages:
+      success: 成功设置了每日赞我
+      already: 已经设置啦
+      failure: 设置每日赞我失败 
+  zanall:
+    description: 赞全体成员
+    usage: |-
+      直接输入即可点赞
+    examples: |-
+      赞全体成员
+    messages:
+      success: 成功啦
+      failure: 获取失败啦 
